@@ -20,6 +20,9 @@ html{
 3. Màu sắc
 4. Kiểu
 */
+.text-while {
+    color: #fff !important;
+}
 .clear{
     clear: both;
 }
@@ -74,11 +77,13 @@ html{
 }
 #header .search-btn:hover{
     background-color: #f44336;
+    /* hiển thị bàn tay khi di chuột vào */
     cursor: pointer;
 }
 #header .search-icon{
     color: #FFF;
     font-size: 15px;
+    /* Chiều cao của dòng chữ */
     line-height: 46px;
    
    
@@ -190,6 +195,7 @@ color: #fff;
 
 
 }
+/* The Band */
 #content .about{
     margin-top: 25px;
     font-size: 15px;
@@ -203,8 +209,10 @@ color: #fff;
 
 }
 #content .member-item{
+    /* kéo các thẻ div(khối) sang trái */
     float: left;
     width: 33.3333333%;
+    /* căn giữa chữ */
     text-align: center;
 }
 #content .member-name{
@@ -213,10 +221,18 @@ color: #fff;
     margin-bottom: 15px;
 }
 #content .member-img{
+    /* làm cho các góc tròn */
     border-radius: 4px;
     width: 154px;
 }
+/* Tour */
+.tour-section{
+    background-color: rgb(235, 90, 90);
+    width: 400px;
+}
+
 #footer {
 
 }
-/* demo modifiel in git */
+/* Chỉ đổ được màu nền cho phần nhìn được
+(padding + content */
